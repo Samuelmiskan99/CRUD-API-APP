@@ -113,7 +113,9 @@ function App() {
                            <Input name='phone' value={newUser.phone} onChange={handleNewUserChange} placeholder='Phone' />
                            <Input name='website' value={newUser.website} onChange={handleNewUserChange} placeholder='Website' />
                            <div className='mt-4 flex justify-end'>
-                              <Button onClick={addUser}>Add</Button>
+                              <Button className={'bg-green-500'} onClick={addUser}>
+                                 Add
+                              </Button>
                            </div>
                         </div>
                      )}
@@ -140,8 +142,12 @@ function App() {
                                        <Card.footer>{user.phone}</Card.footer>
                                        <Card.footer>{user.website}</Card.footer>
                                        <div className=' justify-center flex space-x-4 mt-5'>
-                                          <Button onClick={() => startEditUser(user)}>Edit</Button>
-                                          <Button onClick={() => deleteUser(user.id)}>Delete</Button>
+                                          <Button className={'bg-blue-500'} onClick={() => startEditUser(user)}>
+                                             Edit
+                                          </Button>
+                                          <Button className={'bg-red-500'} onClick={() => deleteUser(user.id)}>
+                                             Delete
+                                          </Button>
                                        </div>
                                     </>
                                  )}
