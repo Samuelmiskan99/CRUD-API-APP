@@ -8,3 +8,16 @@
 ✏️ Update existing records with PUT/PATCH requests
 ❌ Delete records with DELETE requests
 🔒 Secure and scalable
+
+### 🚀 Getting Started
+Prerequisites
+Ensure you have the following installed:
+
+### Node.js
+### Docker (optional, if containerizing)
+
+### Installation :
+```
+git clone https://github.com/yourusername/crud-api.git  
+cd crud-api
+```
