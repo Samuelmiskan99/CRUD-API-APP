@@ -18,6 +18,18 @@ Ensure you have the following installed:
 
 ### Installation :
 ```
-git clone https://github.com/yourusername/crud-api.git  
-cd crud-api
+git clone https://github.com/Samuelmiskan99/CRUD-API-APP.git 
+cd CRUD-API-APP
 ```
+### Install dependencies:
+```
+npm install
+```
+### Start The Server
+```
+npm run dev
+```
+
+### 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
+
